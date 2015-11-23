@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset ="utf-8">
+
+		<title> Lucio y Juana - About </title>
+
+		<header> 
+
+		<style>
+			body {
+				background-image: url("images/catlogo_omnilife.jpg");
+				margin: 0 0 10%;
+				font-family: sans-serif;
+				
+			     }
+
+				
+			h1 {
+				background-color: white;
+				text-align: center;
+				font-family: serif;
+				font-weight: normal;
+				text-transform: uppercase;
+				margin:0px;
+				
+			   }
+
+			h2 {
+				font-size: xx-large;
+				color:white;
+			}
+
+			#menu ul {
+				background-color: white;
+  				list-style-type: none
+				text-align: center;
+				padding: 10px 100px 0;	
+				margin: 0;
+				text-align: center;
+				 }
+			
+			#menu li {
+				font-family: 'Oswald', sans-serif;
+				font-size:1.2em;
+				line-height: 40px;
+				height: 40px ;
+				border-bottom: 1px solid #888;
+				}
+
+			#menu a {
+				text-decoration: none;
+				color: black;
+				display: block;
+				margin: 0 4px 0;
+				transition: .3s background-color;
+				}
+
+			#menu a:hover {
+				background-color: #19FF19;
+				}
+
+			#menu a.active {
+				background-color:#fff;
+				color: #444;
+				cursor: default;
+				}
+
+			@media screen and (min-width: 600px) {
+				#menu li {
+					backgroud-color: white;
+					width:160px;
+					border-bottom: none;
+					height: 50 px;
+					line-height: 50 px;
+					font-size: 1.4 em;
+					display: inline-block;	
+					margin-right: -4px;
+					}
+				}
+				
+			form {
+				text-align: left;
+				margin-left: 80px;
+			}
+
+			li {
+				list-style-type: none;
+			}
+			
+			label{
+    				display: inline-block;
+ 				float: left;
+      				width: 500px;
+    				text-align: left;
+				font-size: large;
+				color: #C0C0C0;
+			}
+
+			input[type="text"],input[type="email"],input[type="tel"] {
+  				background-color: yellow;
+				display: inline-block;
+ 				float: right;
+				width: 400px;
+			}
+
+			.images{
+				position: absolute;
+				top: 250px;
+				bottom: 0;
+				right: 130px;
+				
+			}
+
+		</style
+	</head>
+
+	<body>
+
+		<h1> <img src="images/Omnilife.png" alt="Omnilife logo"> <br> OmniLife...The cure for EVERYTHING!! </h1>
+		
+			<div id="menu">
+				
+				<ul>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="#">Something here</a></li>
+					<li><a href="products.html">Products</a></li>
+					<li><a href="testamonies.html">Testamonies</a></li>
+					<li><a href="blog.html"> Blog</a></li>
+					<li><a href="subscribe.html">Subscribe</a></li>	
+					<li><a href="about.html">About Us</a></li>
+				</ul>
+				
+			</div>
+
+		<h2 align="center"> One step closer to <strong>HEALTH</strong> and <strong>Prosperity</srong></h2>			
+
+		
+			<form action="https://dl.dropboxusercontent.com/u/26624550/subscription.php" method=post">
+			
+			
+				<label><li> First Name</label> <input type="text" name="fname"></li>
+				<label><li> Last Name </label> <input type="text" name="lname"></li> 
+				<label><li> Address </label>  <input type="text" name="address"></li>
+				<label><li> Email </label>    <input type="email"></li>
+				<label><li> Phone </label>      <input type="tel"></li>
+				<label><li> DOB </label>      <input type="text" name="DOB" placeholder="Optional"></li>
+						
+			<p> Interest (choose as many as you want):
+			
+			<li> <input type="checkbox" name="features[]" value="lose weight"> Lose Weight</li>
+			<li> <input type="checkbox" name="features[]" value="gain weight"checked> Gain Weight</li>
+			<li> <input type="checkbox" name="features[]" value="energy">Energy</li>
+			<li> <input type="checkbox" name="features[]" value="get a bigger penis">Get a bigger penis</li>
+			<li> <input type="checkbox" name="features[]" value="period">Periods</li>
+			<li> <input type="checkbox" name="features[]" value ="longer sex drive">Longer sex drive</li>
+
+			</p>
+
+			<li> What is your health goal and financial goal<br> <textarea name="story" rows="6" cols="60" maxlength="300" placeholder="No more than 300 characters long"></textarea></li>			
+
+			<p> <input type="checkbox" name="OptIn" value="Yes" checked> Yes, send me news of and special promotions by email.</p>
+			<p><input type="submit" value="Submit"> 
+			<input type="reset"> </p>
+			
+			</form>	
+
+	<div class=images>
+		
+			<p><img src="images/starbien.jpg" alt="Starbien logo" width="400" height="200"></p> 
+			<p><img src="images/optimus.jpg" alt="Optimus logo" width="400" height="220"></p>
+		
+	</div>
+	</body>
+
+</html>
