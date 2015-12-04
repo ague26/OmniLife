@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <html>
 	<head>
 		<meta charset ="utf-8">
@@ -92,6 +90,19 @@
 				width: 350px;
 				display: inline-block;
 				}
+
+			/* Change the color of each product name
+
+			*/
+			.ui-content > div:first-child p[id="powergain"]{
+				color:#B22222;
+				display: inline-block;
+			}
+
+			.ui-content > div:nth-child(2) p[id="magnus"]{
+				color: blue;
+				display: inline-block;
+			}
 			.ui-content {
 				padding-left: 140px;
 				}	
@@ -119,14 +130,14 @@
 
 		<div data-role="main" class="ui-content">
     			<div data-role="collapsible">
-     			<h3> <img src="https://www.omnilife.com/shopping/images/nvo/productos/eua/preview/2624200.png" alt="Powergain" class="resize">Powergain</h3>
+     			<h3> <img src="https://www.omnilife.com/shopping/images/nvo/productos/eua/preview/2624200.png" alt="Powergain" class="resize"><p id="powergain">Powergain</p></h3>
      			 <p>This is a muscle regenerator</p>
       				<ul>
      				 <li> taste like orange</li>
       				</ul>
 			</div>
 			<div data-role="collapsible">
-			<h3><img src="http://2.bp.blogspot.com/-MuJVdcgE3s0/VONMIKu3hYI/AAAAAAAACW4/DttEejZ4t1g/s1600/magnus_omnilife_caixa.png" alt="Magnus" class="resize">Magnus</h3>
+			<h3><img src="http://2.bp.blogspot.com/-MuJVdcgE3s0/VONMIKu3hYI/AAAAAAAACW4/DttEejZ4t1g/s1600/magnus_omnilife_caixa.png" alt="Magnus" class="resize"><p id="magnus">Magnus</p></h3>
      			 <p>This is a Energy drink</p>
       				<ul>
      				 <li> Just drink it</li>
@@ -147,9 +158,6 @@
       				</ul>
    			</div>
   		</div>
-
-
-			
 		
 		
 	</body>
