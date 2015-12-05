@@ -4,45 +4,184 @@
 	<head>
 		<meta charset ="utf-8">
 
-		<title> Lucio y Juana </title>
+		<title> Lucio y Juana - About </title>
+
+			<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+			<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+			<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
 		<style>
 			body {
 				background-color: white;
-				margin: 0 15%;
+				margin: 0 0 10%;
 				font-family: sans-serif;
+				
 			     }
+			
+			#background_img {
+				position: absolute;
+				top: 300px;
+				bottom: 0;
+				right: 35px;
+				}
 
+				
 			h1 {
+				background-color: white;
 				text-align: center;
 				font-family: serif;
 				font-weight: normal;
 				text-transform: uppercase;
-				border-bottom: 1px solid #57b1dc
-				margin-top:30px;
+				margin:0px;
+				
 			   }
+
+			
+
+			#menu ul {
+				background-color: white;
+  				list-style-type: none
+				text-align: center;
+				padding: 10px 100px 0;	
+				margin: 0;
+				text-align: center;
+				 }
+			
+			#menu li {
+				font-family: 'Oswald', sans-serif;
+				font-size:1.2em;
+				line-height: 40px;
+				height: 40px ;
+				border-bottom: 1px solid #888;
+				}
+
+			#menu a {
+				text-decoration: none;
+				color: black;
+				display: block;
+				margin: 0 4px 0;
+				transition: .3s background-color;
+				}
+
+			#menu a:hover {
+				background-color: #19FF19;
+				}
+
+			#menu a.active {
+				background-color:#fff;
+				color: #444;
+				cursor: default;
+				}
+
+			@media screen and (min-width: 600px) {
+				#menu li {
+					backgroud-color: white;
+					width:160px;
+					border-bottom: none;
+					height: 50 px;
+					line-height: 50 px;
+					font-size: 1.4 em;
+					display: inline-block;	
+					margin-right: -4px;
+					}
+				}
+
 
 			h2 {
-				color: #d1633c;
+				color: purple;
 				font-size: 3em;
+				margin-left: 5%;
 			   }
 
-				</style
+			h3 {
+				margin-left: 19.8%;
+			}
+
+			
+			figure {
+				margin-top: 0;
+				float: left;
+				color: purple;
+				margin-left: 5%;
+			       }
+			hr {
+				margin-top: 8.5%;
+				margin-left: 19.8%;
+				margin-right: 85%;
+				border-width: 4px;
+				border-color: purple;
+				
+			    }
+
+			p {
+				margin-right: 600px;
+
+			}
+
+		</style
 	</head>
 
 	<body>
+
 		<h1> <img src="images/Omnilife.png" alt="Omnilife logo"> <br> OmniLife...The cure for EVERYTHING!! </h1>
+		
+			<div id="menu">
+				
+				<ul>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="#">Something here</a></li>
+					<li><a href="products.html">Products</a></li>
+					<li><a href="testamonies.html">Testamonies</a></li>
+					<li><a href="blog.html"> Blog</a></li>
+					<li><a href="subscribe.html">Subscribe</a></li>	
+					<li><a href="about.html">About Us</a></li>
+				</ul>
+				
+			</div>
 
-		<div class="page_header">
+		<h2>About</h2>
 
-			<p>Something here|</h2>
+		<div id="Lucio">
 
+			<h3>Lucio Escamilla</h3>
+
+			<figure> <img src="images/Lucio.jpg" alt="Lucio profile"> 
+				<figcaption> "Soy 100% Omnilife" </figcaption>
+		
+			</figure>
+
+			<p>Live in the Bronx. Married to Juana. Father to 2 crazy kids. My daughter is crazier than all. Born and raised in Mexico. Favorite quote:"Esta aprendiendo" Call me at <a href="tel:917-842-1038"> (917)-(842-1038)<a/>...Write more stuff</p> 
+			
+			<a href="http://www.facebook.com"> Lucio's Facebook </a>
+
+			
 		
 		</div>
 
-<p>This is the website for Lucio Escamilla y Juana Guadalupe. This is an OmniLife page for their products. Ideas for this webpage will include ordering and delivering products to theirsubscribers. An "About"page for OmniLife. Being able to enroll in OmniLife. "Omnilife...The cure for everything!!" </p>
+		<hr width="470px">
 
-<a href="about.html"> About </a>
+		<div id="Juana">
+			<h3>Juana Guadalupe</h3>
+
+
+		<figure> <img src="images/juana.png" alt="Juana profile" width= "160"
+				height= auto>
+			<figcaption>"Gente cuide a gente"</figcaption>
+		</figure>
+		
+		<p> Live in the Bronx, mother of two. Love to travel. I cook food. I lived right next to a field where they grew marijuana. I am married to the guy that you see at the top of me. Born and raised in Mexico. Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah....Write more stuff here. Call me at <a href="tel:646-373-8477"> (646)-(373-8477)</a> </p>
+
+		<a href="www.facebook.com">Juana's website</a>		
+
+		</div>
+
+		<div id="background_img">
+
+		<img src="images/Lucio&Juana.jpg" alt="" width="500" height= "550">
+
+		</div>
+
+			
 
 	</body>
 
