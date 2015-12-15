@@ -18,6 +18,7 @@
 			     }
 
 			h1 {
+				background-color: white;
 				text-align: center;
 				font-family: serif;
 				font-weight: normal;
@@ -26,27 +27,82 @@
 				margin-top:30px;
 			   }
 
-			h2 {
-				color: #d1633c;
-				font-size: 3em;
-			   }
+			#menu ul {
+				background-color: white;
+  				list-style-type: none
+				text-align: center;
+				padding: 10px 100px 0;	
+				margin: 0;
+				text-align: center;
+				 }
+			
+			#menu li {
+				font-family: 'Oswald', sans-serif;
+				font-size:1.2em;
+				line-height: 40px;
+				height: 40px ;
+				border-bottom: 1px solid #888;
+				}
+
+			#menu a {
+				text-decoration: none;
+				color: black;
+				display: block;
+				margin: 0 4px 0;
+				transition: .3s background-color;
+				}
+
+			#menu a:hover {
+				background-color: #19FF19;
+				}
+
+			#menu a.active {
+				background-color:#fff;
+				color: #444;
+				cursor: default;
+				}
+
+			@media screen and (min-width: 600px) {
+				#menu li {
+					backgroud-color: white;
+					width:160px;
+					border-bottom: none;
+					height: 50 px;
+					line-height: 50 px;
+					font-size: 1.4 em;
+					display: inline-block;	
+					margin-right: -4px;
+					}
+				}
 
 				</style
 	</head>
 
 	<body>
+
+
+	<header>
 		<h1> <img src="images/Omnilife.png" alt="Omnilife logo"> <br> OmniLife...The cure for EVERYTHING!! </h1>
-
-		<div class="page_header">
-
-			<p>Something here|</h2>
-
+			<div id="menu">
+				
+				<ul>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="products.html">Products</a></li>
+					<li><a href="testamonies.html">Testamonies</a></li>
+					<li><a href="blog.html"> Blog</a></li>
+					<li><a href="subscribe.html">Subscribe</a></li>	
+					<li><a href="about.html">About Us</a></li>
+				</ul>
+				
+			</div>
 		
+	</header>
+
+	<div id="background_img">
+
+		<img src="images/omnilife_botela.jpg" alt="omnilife_botela" width="481px" height= "436px">
+
 		</div>
-
-<p>This is the website for Lucio Escamilla y Juana Guadalupe. This is an OmniLife page for their products. Ideas for this webpage will include ordering and delivering products to theirsubscribers. An "About"page for OmniLife. Being able to enroll in OmniLife. "Omnilife...The cure for everything!!" </p>
-
-<a href="about.html"> About </a>
 
 	</body>
 
