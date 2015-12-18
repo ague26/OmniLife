@@ -1,0 +1,117 @@
+body {
+  background-color: white;
+  margin: 0 15%;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif !important;
+  text-align: center;
+  font-family: serif;
+  font-weight: lighter !important;
+  text-transform: uppercase;
+  margin-top:30px;
+}
+
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+  background-color: #FFF !important;
+}
+
+/* Banner Area Tweaks */
+
+#banner-area img{
+  top: -572px;
+  left: 0px;
+  width: 100%;
+  height: 500px;
+}
+
+#banner-area p{
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: lighter !important;
+  position: absolute;
+  font-size: 32px;
+  bottom: 50%;
+  left: 35%;
+  color: #FFF;
+
+}
+
+#banner-button {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: lighter !important;
+  position: absolute;
+  font-size: 20px;
+  bottom: 40%;
+  left: 35%;
+  color: #FFF;
+  border: solid thin #FFF;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  padding-top: 11px;
+}
+
+#banner-button:hover {
+  background-color: #FFF;
+  color: black;
+  transition: .3s;
+  cursor:pointer;
+}
+
+/* Menu Tweaks */
+
+#menu ul {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  list-style-type: none;
+  text-align: center;
+  padding: 10px 100px 0;
+  margin: 0;
+  text-align: center;
+   }
+
+#menu li {
+  font-family: 'Open Sans', sans-serif;
+  font-size:1.2em;
+  line-height: 40px;
+  height: 40px ;
+  border-bottom: 1px solid #888;
+  }
+
+#menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter !important;
+  display: block;
+  margin: 0 4px 0;
+  transition: .3s background-color;
+  }
+
+#menu a:hover {
+  color: gray;
+  transition: .3s;
+  }
+
+#menu a.active {
+  background-color:#fff;
+  color: #444;
+  cursor: default;
+  }
+
+
+
+/* Mobile Styles */
+
+@media screen and (min-width: 600px) {
+  #menu li {
+    backgroud-color: white;
+    width:160px;
+    border-bottom: none;
+    height: 50 px;
+    line-height: 50 px;
+    font-size: 1.4 em;
+    display: inline-block;
+    margin-right: -4px;
+    }
+  }
