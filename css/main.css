@@ -23,7 +23,7 @@ h1 {
   top: -572px;
   left: 0px;
   width: 100%;
-  height: 500px;
+  height: 815px;
 }
 
 #banner-area p{
@@ -31,8 +31,8 @@ h1 {
   font-weight: lighter !important;
   position: absolute;
   font-size: 32px;
-  bottom: 50%;
-  left: 35%;
+  bottom: 30%;
+  left: 34%;
   color: #FFF;
 
 }
@@ -41,11 +41,11 @@ h1 {
   font-family: 'Open Sans', sans-serif !important;
   font-weight: lighter !important;
   position: absolute;
-  font-size: 20px;
-  bottom: 40%;
-  left: 50%;
+  font-size: 18px;
+  bottom: 20%;
+  left:44%;
   color: #FFF;
-  border: solid thin #FFF;
+  border: solid  #FFF;
   width: 150px;
   height: 40px;
   text-align: center;
