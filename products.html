@@ -1,187 +1,75 @@
 <!DOCTYPE html>
 
-<html>
-	<head>
-		<meta charset ="utf-8">
+<html lang="en">
 
-		<title> Lucio y Juana - Products </title>
+<head>
+  <meta charset="utf-8">
+
+  <title>Omnilife</title>
+
+  <!-- Meta Descriptions -->
+  <meta name="description" content="This is the site description for SEO Purposes">
+  <meta name="author" content="aguevara">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/products.css">
+  <link rel="stylesheet" href="css/animations.css">
 
 
-			<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
-			<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-			<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
-		<style>
-			body {
-				margin: 0% 0 10%;
-				font-family: sans-serif;
-			     }
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 
+</head>
 
-			h1 {
-				background-color: white;
-				text-align: center;
-				font-family: serif;
-				font-weight: normal;
-				text-transform: uppercase;
-				margin:0px;
-			    }
+<body>
 
-			h2 {
-				font-size: xx-large;
-				color:white;
-			}
+<div id="logo">
+  <h1> <img src="images/logo-1.png" alt="Omnilife logo"> <br></h1>
+</div>
 
-			#menu ul {
-				background-color: white;
-  			list-style-type: none;
-				text-align: center;
-				padding: 10px 80px 0;
-				margin: 0;
-				text-align: center;
-				 }
+    <div id="menu">
 
-			#menu li {
-				font-family: 'Oswald', sans-serif;
-				font-size:1.2em;
-				line-height: 40px;
-				height: 40px ;
-				border-bottom: 1px solid #888;
-				}
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="testamonies.html">Testamonies</a></li>
+        <li><a href="blog.html"> Blog</a></li>
+        <li><a href="subscribe.html">Subscribe</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
 
-			#menu a {
-				text-decoration: none;
-				color: black;
-				display: block;
-				margin: 0 4px 0;
-				transition: .3s background-color;
-				}
+    </div>
 
-			#menu a:hover {
-				background-color: #19FF19;
-				}
+<div data-role="main" class="ui-content">
+    <div data-role="collapsible">
+     	<h3> <img src="https://www.omnilife.com/shopping/images/nvo/productos/eua/preview/2624200.png" alt="Powergain" class="resize"><p id="powergain">Powergain</p></h3>
+     		<p>This is a muscle regenerator</p>
+      		<ul>
+     				<li> taste like orange</li>
+      		</ul>
+		</div>
 
-			#menu a.active {
-				background-color:#fff;
-				color: #444;
-				cursor: default;
-				}
-
-			@media screen and (min-width: 600px) {
-				#menu li {
-					backgroud-color: white;
-					width:160px;
-					border-bottom: none;
-					height: 50 px;
-					line-height: 50 px;
-					font-size: 1.4 em;
-					display: inline-block;
-					margin-right: -4px;
-					}
-				}
-			.resize {
-			width: 50px;
- 			height: auto;
-				}
-			.resize {
- 			width: auto;
- 			height: 200px;
- 				}
-
-			/* Change the color of each product name
-
-			*/
-			.ui-content > div:first-child p[id="powergain"]{
-				color:#B22222;
-				display: inline-block;
-				font-size: 25px;
-				font-family: "Time New Roman";
-				font-weight: 200;
-				}
-
-			.ui-content > div:nth-child(2) p[id="magnus"]{
-				color: #ff1493;
-				display: inline-block;
-				font-size: 25px;
-				font-family: "Time New Roman";
-				font-weight: 200;
-				}
-
-			.ui-content > div:nth-child(3) p[id="Teatino"]{
-				color: #DC381F;
-				display: inline-block;
-				font-size: 25px;
-				font-family: "Time New Roman";
-				font-weight: 200;
-			}
-
-			.ui-content > div:nth-child(4) p[id="Undu"]{
-				color: #43c6db;
-				display: inline-block;
-				font-size: 25px;
-				font-family: "Time New Roman";
-				font-weight: 200;
-				}
-			.ui-content {
-				padding-left: 140px;
-				font-size: x-large;
-
-				}
-			.ui-collapsible {
-				width: 350px;
-				display: inline-table;
-				}
-			.ui-collapsible-heading-toggle {
-				height: 221.11px;
-			}
-			.ui-collapsible-content {
-				font-size: medium;
-			}
-
-		</style
-	</head>
-
-	<body>
-
-		<h1> <img src="images/Omnilife.png" alt="Omnilife logo"> <br> OmniLife...The cure for EVERYTHING!! </h1>
-
-			<div id="menu">
-
-				<ul>
-					<li><a href="home.html">Home</a></li>
-					<li><a href="#">Something here</a></li>
-					<li><a href="products.html">Products</a></li>
-					<li><a href="testamonies.html">Testamonies</a></li>
-					<li><a href="blog.html"> Blog</a></li>
-					<li><a href="subscribe.html">Subscribe</a></li>
-					<li><a href="about.html">About Us</a></li>
-				</ul>
-
-			</div>
-
-		<div data-role="main" class="ui-content">
-    			<div data-role="collapsible">
-     			<h3> <img src="https://www.omnilife.com/shopping/images/nvo/productos/eua/preview/2624200.png" alt="Powergain" class="resize"><p id="powergain">Powergain</p></h3>
-     			 <p>This is a muscle regenerator</p>
-      				<ul>
-     				 <li> taste like orange</li>
-      				</ul>
-			</div>
-			<div data-role="collapsible">
+		<div data-role="collapsible">
 			<h3><img src="http://2.bp.blogspot.com/-MuJVdcgE3s0/VONMIKu3hYI/AAAAAAAACW4/DttEejZ4t1g/s1600/magnus_omnilife_caixa.png" alt="Magnus" class="resize"><p id="magnus">Magnus</p></h3>
      			 <p>This is a Energy drink</p>
       				<ul>
      				 <li> Just drink it</li>
       				</ul>
    			</div>
-			<div data-role="collapsible">
+		<div data-role="collapsible">
 			<h3><img src="http://healthenwell.weebly.com/uploads/1/2/7/6/12767910/9643397_orig.png" alt="Teatino" class="resize"><p id="Teatino">Teatino</p></h3>
      			 <p>This is a Diet drink</p>
       				<ul>
      				 <li> Thermogenic drink</li>
       				</ul>
    			</div>
-			<div data-role="collapsible">
+		<div data-role="collapsible">
 			<h3><img src="https://www.omnilife.com/shopping/images/nvo/productos/rep/preview/3721200.png" alt="Undu" class="resize"><p id="Undu">Undu</p></h3>
      			 <p>This is a Diet drink</p>
       				<ul>
@@ -190,7 +78,6 @@
    			</div>
   		</div>
 
-
-	</body>
+</body>
 
 </html>
