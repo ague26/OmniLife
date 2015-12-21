@@ -1,0 +1,23 @@
+/* CSS for the Blog Page */
+
+body {
+  margin: 0% 0 10%;
+  font-family: sans-serif;
+
+     }
+
+
+h1 {
+  background-color: white;
+  text-align: center;
+  font-family: serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin:0px;
+
+   }
+
+h2 {
+  font-size: xx-large;
+  color:white;
+}
