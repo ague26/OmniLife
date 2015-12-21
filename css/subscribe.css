@@ -1,0 +1,34 @@
+/* subscribe tweaks */
+
+form {
+  text-align: left;
+  margin-left: 80px;
+}
+
+li {
+  list-style-type: none;
+}
+
+label{
+      display: inline-block;
+  float: left;
+        width: 500px;
+      text-align: left;
+  font-size: large;
+  color: #C0C0C0;
+}
+
+input[type="text"],input[type="email"],input[type="tel"] {
+    background-color: yellow;
+  display: inline-block;
+  float: right;
+  width: 400px;
+}
+
+.images{
+  position: absolute;
+  top: 250px;
+  bottom: 0;
+  right: 130px;
+
+}
